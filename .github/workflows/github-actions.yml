@@ -8,10 +8,10 @@
         - name: executing remote ssh commands using password
           uses: appleboy/ssh-action@v1.0.3
           with:
-            host: ${{ variables.HOST }}
-            username: ${{ variables.USERNAME }}
-            key: ${{ variables.KEY }}
-            port: ${{ variables.PORT }}
+            host: ${{ vars.HOST }}
+            username: ${{ vars.USERNAME }}
+            key: ${{ vars.KEY }}
+            port: ${{ vars.PORT }}
             script: |
               cd /var/www/html
               git pull      
