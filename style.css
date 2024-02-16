@@ -2,3 +2,8 @@ body {
     background-color: rgb(96, 223, 255);
     color: rgb(179, 136, 72);
 }
+
+.overskrift {
+    background-color: aquamarine;
+    color: sandybrown;
+}
